@@ -18,7 +18,7 @@ export default function Search() {
 
                 <FontAwesomeIcon icon={faSearch}
                     onClick={() => setShowSidebar(!showSidebar)}
-                    className="fixed  z-30 flex items-center cursor-pointer right-28 md:right-32 top-6 text-blue-600 h-6"
+                    className=" pr-6 z-30 flex items-center cursor-pointer right-28 md:right-32 top-6 text-blue-600 h-6"
                 />
             )}
             <div

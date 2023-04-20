@@ -1,8 +1,6 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import Carrossel from './Carrossel'
 import Burger from './Burger'
-import Search from './Search'
+import Search from '../header/Search'
 import Link from 'next/link'
 export default function Header() {
     return (
