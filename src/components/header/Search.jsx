@@ -29,7 +29,7 @@ export default function Search() {
                     className="bg-zinc-300 rounded-xl p-2"
                 />
                 <h3 className="text-white text-sm">
-                    Pressione 'Enter' para pesquisar
+                    Pressione &apos;Enter&apos; para pesquisar
                 </h3>
             </div>
         </>
