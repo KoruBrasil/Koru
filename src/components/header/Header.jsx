@@ -16,13 +16,13 @@ export default function Header() {
                 </div>
             </div>
             <nav className='flex justify-center items-center p-5 gap-10'>
-               <Link href='??'>
+               <Link href='??' className='bg-blue-100 rounded-xl p-1 px-5 text-blue-700'>
                  Página
                </Link>
-               <Link href='??'>
+               <Link href='??' className='bg-blue-100 rounded-xl p-1 px-5 text-blue-700'>
                  Página
                </Link>
-               <Link href='??' className='bg-blue-500 rounded-xl p-1 px-5 text-white'>
+               <Link href='??' className='bg-blue-700 rounded-xl p-1 px-5 text-white'>
                  Página
                </Link>
             </nav>
