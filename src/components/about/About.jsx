@@ -84,8 +84,8 @@ export default function About() {
                 <h2 className="tracking-wide text-center px-5 py-20 lg:px-44 leading-loose text-2xl text-zinc-700">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur in accusantium minima sint id dicta eligendi quos. Quo delectus autem minus fugiat quis, pariatur debitis odit aliquam. Laborum, blanditiis fuga!
                 </h2>
-                <div className='grid md:grid-cols-2 lg:grid-cols-5 p-20 gap-5'>
-                    <div className="w-80 lg:w-60 rounded-lg flex justify-center items-end overflow-hidden">
+                <div className='grid justify-center items-center md:grid-cols-2 lg:grid-cols-5 lg:p-20 gap-5'>
+                    <div className="w-80 lg:w-60 flex justify-center items-end overflow-hidden">
                         <div className='flex flex-col justify-center items-center'>
                             <Image src={card2} about='imagem ' />
                             <h2 className='text-5xl text-blue-700'>400+</h2>
