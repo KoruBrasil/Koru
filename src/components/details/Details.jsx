@@ -9,7 +9,7 @@ export default function Details(){
                 />
             </div>
             <div className="flex flex-col text-center lg:text-start lg:w-[650px] px-10 lg:pl-10 lg:pr-20 ">
-                <h2 className="text-4xl text-blue-700 pb-5 font-bold">
+                <h2 className="text-4xl text-green1 pb-5 font-bold">
                     Lorem ipsum dolor sit amet consectetur 
                 </h2>
                 <p>

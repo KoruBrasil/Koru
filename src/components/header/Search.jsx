@@ -18,11 +18,11 @@ export default function Search() {
 
                 <FontAwesomeIcon icon={faSearch}
                     onClick={() => setShowSidebar(!showSidebar)}
-                    className=" pr-6 z-30 flex items-center cursor-pointer right-28 md:right-32 top-6 text-blue-600 h-6"
+                    className=" pr-6 z-30 flex items-center cursor-pointer right-28 md:right-32 top-6 text-green1 h-6"
                 />
             )}
             <div
-                className={`top-0 right-0 w-full bg-blue-600 fixed z-40 h-36 ease-in-out duration-300 flex flex-col justify-center items-center pt-12 md:justify-center md:items-center ${showSidebar ? "translate-y-0" : "-translate-y-40"
+                className={`top-0 right-0 w-full bg-gren fixed z-40 h-36 ease-in-out duration-300 flex flex-col justify-center items-center pt-12 md:justify-center md:items-center ${showSidebar ? "translate-y-0" : "-translate-y-40"
                     }`}>
                 <input type="text"
                     placeholder="Pesquisa"

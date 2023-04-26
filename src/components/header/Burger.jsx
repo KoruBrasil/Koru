@@ -16,7 +16,7 @@ export default function Sidebar() {
                 <svg
                     onClick={() => setShowSidebar(!showSidebar)}
                     className="z-30 flex items-center cursor-pointer right-10 top-6"
-                    fill="#2563EB"
+                    fill="#52AAB1"
                     viewBox="0 0 100 80"
                     width="30"
                     height="30"

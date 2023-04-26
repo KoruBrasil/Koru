@@ -16,7 +16,11 @@ module.exports = {
       },
       transitionDuration: {
         '2000': '2000ms',
-      }
+      },
+      colors: {
+        'green1': '#52AAB1',
+        'yellow1':'#eee8a9'
+      },
     },
     
   },

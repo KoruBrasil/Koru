@@ -8,8 +8,8 @@ export default function About() {
     return (
         <div className="flex flex-col justify-center items-center">
             <div className='flex flex-col justify-center items-center text-center pt-20 px-5 md:px-20 gap-5'>
-                <h2 className='text-xl tracking-wide text-blue-700'>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
-                <h2 className='text-5xl font-bold tracking-wide text-blue-600'>Lorem ipsum dolor sit</h2>
+                <h2 className='text-xl tracking-wide text-green1'>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+                <h2 className='text-5xl font-bold tracking-wide text-green1'>Lorem ipsum dolor sit</h2>
                 <p className='text-xl tracking-wide leading-10 text-zinc-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid excepturi beatae, molestias animi atque dicta voluptatum in eligendi ipsa? Ipsam eum sapiente beatae voluptates sed ad nihil minima labore facilis.</p>
             </div>
 
@@ -21,7 +21,7 @@ export default function About() {
                         className='h-full hover:scale-125 transition-all duration-2000 rounded-lg'
                     />
                     <div className='absolute p-4 z-10'>
-                        <FontAwesomeIcon icon={faHandshake} className='text-yellow-500 font-bold text-4xl drop-shadow-dark1 py-2' />
+                        <FontAwesomeIcon icon={faHandshake} className='text-green1 font-bold text-4xl drop-shadow-dark1 py-2' />
                         <p className="drop-shadow-dark1 text-white  w-48 tracking-wide py-2">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
@@ -37,7 +37,7 @@ export default function About() {
                         className='h-full hover:scale-125 transition-all duration-2000 rounded-lg'
                     />
                     <div className='absolute p-4 z-10'>
-                        <FontAwesomeIcon icon={faHandshake} className='text-yellow-500 font-bold text-4xl drop-shadow-dark1 py-2' />
+                        <FontAwesomeIcon icon={faHandshake} className='text-green1 font-bold text-4xl drop-shadow-dark1 py-2' />
                         <p className="drop-shadow-dark1 text-white  w-48 tracking-wide py-2">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
@@ -53,7 +53,7 @@ export default function About() {
                         className='h-full hover:scale-125 transition-all duration-2000 rounded-lg'
                     />
                     <div className='absolute p-4 z-10'>
-                        <FontAwesomeIcon icon={faHandshake} className='text-yellow-500 font-bold text-4xl drop-shadow-dark1 py-2' />
+                        <FontAwesomeIcon icon={faHandshake} className='text-green1 font-bold text-4xl drop-shadow-dark1 py-2' />
                         <p className="drop-shadow-dark1 text-white  w-48 tracking-wide py-2">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
@@ -69,7 +69,7 @@ export default function About() {
                         className='h-full hover:scale-125 transition-all duration-2000 rounded-lg'
                     />
                     <div className='absolute p-4 z-10'>
-                        <FontAwesomeIcon icon={faHandshake} className='text-yellow-500 font-bold text-4xl drop-shadow-dark1 py-2' />
+                        <FontAwesomeIcon icon={faHandshake} className='text-green1 font-bold text-4xl drop-shadow-dark1 py-2' />
                         <p className="drop-shadow-dark1 text-white  w-48 tracking-wide py-2">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
@@ -88,35 +88,35 @@ export default function About() {
                     <div className="w-80 lg:w-60 flex justify-center items-end overflow-hidden">
                         <div className='flex flex-col justify-center items-center'>
                             <Image src={card2} about='imagem ' />
-                            <h2 className='text-5xl text-blue-700'>400+</h2>
+                            <h2 className='text-5xl text-green1'>400+</h2>
                             <p className=''>centres</p>
                         </div>
                     </div>
                     <div className="w-80 lg:w-60 rounded-lg flex justify-center items-end overflow-hidden">
                         <div className='flex flex-col justify-center items-center'>
                             <Image src={card2} about='imagem ' />
-                            <h2 className='text-5xl text-blue-700'>400+</h2>
+                            <h2 className='text-5xl text-green1'>400+</h2>
                             <p className=''>centres</p>
                         </div>
                     </div>
                     <div className="w-80 lg:w-60 rounded-lg flex justify-center items-end overflow-hidden">
                         <div className='flex flex-col justify-center items-center'>
                             <Image src={card2} about='imagem ' />
-                            <h2 className='text-5xl text-blue-700'>400+</h2>
+                            <h2 className='text-5xl text-green1'>400+</h2>
                             <p className=''>centres</p>
                         </div>
                     </div>
                     <div className="w-80 lg:w-60 rounded-lg flex justify-center items-end overflow-hidden">
                         <div className='flex flex-col justify-center items-center'>
                             <Image src={card2} about='imagem ' />
-                            <h2 className='text-5xl text-blue-700'>400+</h2>
+                            <h2 className='text-5xl text-green1'>400+</h2>
                             <p className=''>centres</p>
                         </div>
                     </div>
                     <div className="w-80 lg:w-60 rounded-lg flex justify-center items-end overflow-hidden">
                         <div className='flex flex-col justify-center items-center'>
                             <Image src={card2} about='imagem ' />
-                            <h2 className='text-5xl text-blue-700'>400+</h2>
+                            <h2 className='text-5xl text-green1'>400+</h2>
                             <p className=''>centres</p>
                         </div>
                     </div>
