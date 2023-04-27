@@ -5,8 +5,8 @@ import { Carousel } from 'react-responsive-carousel'
 export default function Testimony() {
     return (
         <div>
-            <div className='pt-20 flex  flex-col justify-center items-center'>
-                <Image src={card3} about='foto de uma criança' className='rounded-lg w-[900px] h-[458px] mt-20 lg:ml-52' />
+            <div className=' flex  flex-col justify-center items-center'>
+                <Image src={card3} about='foto de uma criança' className='rounded-lg w-[900px] h-[458px] lg:mt-20 lg:ml-52'/>
                 <div className='bg-green1 text-yellow1 lg:w-[460px] h-[458px] lg:mr-[600px] p-10 space-y-9 rounded-lg lg:absolute'>
                     <p>Lorem, ipsum dolor sit amet...</p>
                     <h2 className='text-2xl '>Lorem, ipsum doler sit amet lorem...</h2>

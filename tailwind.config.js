@@ -18,8 +18,8 @@ module.exports = {
         '2000': '2000ms',
       },
       colors: {
-        'green1': '#52AAB1',
-        'yellow1':'#eee8a9'
+        'green1': '#353535',
+        'yellow1':'#52AAB1'
       },
     },
     

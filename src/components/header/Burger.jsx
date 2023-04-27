@@ -28,7 +28,7 @@ export default function Sidebar() {
             )}
 
             <div
-                className={`top-0 right-0 w-full md:w-[30vw] bg-blue-600 text-white fixed h-full z-40  ease-in-out duration-300 ${showSidebar ? "translate-x-0 " : "translate-x-full"
+                className={`top-0 right-0 w-full md:w-[30vw] bg-green1 text-white fixed h-full z-40  ease-in-out duration-300 ${showSidebar ? "translate-x-0 " : "translate-x-full"
                     }`}
             >
                 <h3 className=" mt-20 text-sm font-semibold text-white p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
