@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import garotinho from '../../../public/gatorinho.jpg'
+import garotinho from '../../../public/garotinho.jpg'
 import boy from '../../../public/boy.jpg'
 import Image from 'next/image';
 
