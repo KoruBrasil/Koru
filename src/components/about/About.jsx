@@ -6,7 +6,7 @@ import { faHandshake } from '@fortawesome/free-solid-svg-icons'
 
 export default function About() {
     return (
-        <div className="flex flex-col justify-center items-center -mt-10 pb-20 lg:pb-0">
+        <div className="flex flex-col justify-center items-center -mt-10 pb-20 lg:pb-0 bg-bg1">
             <div className='flex flex-col justify-center items-center text-center  pt-20 px-5 md:px-20 gap-5'>
                 <h2 className='text-xl tracking-wide text-green1'>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
                 <h2 className='text-5xl font-bold tracking-wide text-green1'>Lorem ipsum dolor sit</h2>

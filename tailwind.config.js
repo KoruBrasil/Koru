@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'card': "url('/card.jpeg')",
-        'bg1':"url('/logo_whitebg.png')",
+        'bg1':"url('/bg1.jpeg')",
       },
       dropShadow: {
         dark1:'1px 1px 1px black',
@@ -20,7 +20,7 @@ module.exports = {
       },
       colors: {
         'green1': '#52AAB1',
-        'yellow1':'#353535',
+        'yellow1':'#573280',
       },
     },
     

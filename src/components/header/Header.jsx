@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <div>
       <div
-        className='flex justify-between items-center p-5 lg:shadow '>
+        className='flex justify-between items-center p-5 lg:shadow bg-bg1'>
         <div className='px-2 rounded-full'>
           <Image src={logo} alt='logo da empresa'
             width={80}
@@ -34,7 +34,7 @@ export default function Header() {
              className='bg-green1 rounded-e-lg p-2 text-white border-none'  
              />
             
-          <button className='bg-yellow1 text-white rounded-2xl py-1 px-5 text-xl mx-5'>Página</button>
+          <button className='bg-yellow1 text-green1 rounded-2xl py-1 px-5 text-xl mx-5'>Página</button>
         </div>
         <div className='flex items-center lg:hidden '>
           <Search />
@@ -42,17 +42,17 @@ export default function Header() {
         </div>
       </div>
       <nav className='flex justify-center items-center pb-5 gap-2 lg:hidden'>
-        <Link href='??' className='bg-yellow1 text-green1 rounded-xl p-1 px-5'>
+        <Link href='??' className='bg-yellow1 text-white rounded-xl p-1 px-5'>
           Página
         </Link>
-        <Link href='??' className='bg-yellow1 text-green1 rounded-xl p-1 px-5 '>
+        <Link href='??' className='bg-yellow1 text-white rounded-xl p-1 px-5 '>
           Página
         </Link>
         <Link href='??' className='bg-green1 rounded-xl p-1 px-5 text-yellow1 '>
           Página
         </Link>
       </nav>
-      <nav className='hidden lg:flex justify-center items-center p-5 gap-20'>
+      <nav className='hidden lg:flex justify-center items-center p-5 gap-20 '>
         <Link href='??' className='text-green1'>
           Página
         </Link>
