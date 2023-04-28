@@ -11,11 +11,11 @@ export default function Header() {
   return (
     <div>
       <div
-        className='flex justify-between items-center p-5 lg:shadow bg-bg1'>
+        className='flex justify-between items-center p-5 lg:shadow bg-green1 bg-opacity-5 '>
         <div className='px-2 rounded-full'>
           <Image src={logo} alt='logo da empresa'
             width={80}
-            className='drop-shadow-sm'
+            className=' '
           />
           
         </div>
