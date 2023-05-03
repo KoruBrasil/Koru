@@ -19,7 +19,7 @@ export default function Header() {
           />
         </div>
         <div>
-          <h2 className='font-bold text-center'>
+          <h2 className='font-bold text-center hidden md:block'>
             Mantendo as famílias mais unidas
           </h2>
         </div>
@@ -46,15 +46,12 @@ export default function Header() {
         </div>
       </div>
       <nav className='flex justify-center items-center pb-5 gap-2 lg:hidden'>
-        <Link href='??' className='bg-yellow1 text-white rounded-xl p-1 px-5'>
-          Página
-        </Link>
-        <Link href='??' className='bg-yellow1 text-white rounded-xl p-1 px-5 '>
-          Página
-        </Link>
-        <Link href='??' className='bg-green1 rounded-xl p-1 px-5 text-yellow1 '>
-          Página
-        </Link>
+      <button className='bg-yellow1 bg-opacity-40 hover:bg-opacity-100 transition-all duration-300 ease-in-out text-yellow1 hover:text-white rounded-full py-2 px-5 text-sm mx-2 font-bold'>
+            Cadastre-se
+          </button>
+          <button className='bg-yellow1 hover:bg-opacity-40 hover:text-yellow1 transition-all duration-300 text-white rounded-full py-2 px-5 text-sm  font-bold'>
+            Login
+          </button>
       </nav>
       <nav className='hidden lg:flex justify-center items-center p-5 gap-10'>
 

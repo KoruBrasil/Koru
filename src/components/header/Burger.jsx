@@ -7,7 +7,7 @@ export default function Sidebar() {
         <>
             {showSidebar ? (
                 <button
-                    className="flex text-4xl text-white items-center cursor-pointer fixed right-10 top-6 z-50"
+                    className="flex text-4xl text-yellow1 items-center cursor-pointer fixed right-10 top-6 z-50"
                     onClick={() => setShowSidebar(!showSidebar)}
                 >
                     x
@@ -16,7 +16,7 @@ export default function Sidebar() {
                 <svg
                     onClick={() => setShowSidebar(!showSidebar)}
                     className="z-30 flex items-center cursor-pointer right-10 top-6"
-                    fill="#52AAB1"
+                    fill="#573280"
                     viewBox="0 0 100 80"
                     width="30"
                     height="30"
@@ -28,20 +28,26 @@ export default function Sidebar() {
             )}
 
             <div
-                className={`top-0 right-0 w-full md:w-[30vw] bg-green1 text-white fixed h-full z-40  ease-in-out duration-300 ${showSidebar ? "translate-x-0 " : "translate-x-full"
+                className={`top-0 right-0 w-[50vw] bg-purple-100 text-yellow1 fixed h-full z-40  ease-in-out duration-300 ${showSidebar ? "translate-x-0 " : "translate-x-full"
                     }`}
             >
-                <h3 className=" mt-20 text-sm font-semibold text-white p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
-                    I am a sidebar
+                <h3 className=" mt-20 text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                    O que fazemos?
                 </h3>
-                <h3 className="text-sm font-semibold text-white p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
-                    I am a sidebar
+                <h3 className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                    Prenda conosco
                 </h3>
-                <h3 className="text-sm font-semibold text-white p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
-                    I am a sidebar
+                <h3 className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                    Novidades e eventos
                 </h3>
-                <h3 className="text-sm font-semibold text-white p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
-                    I am a sidebar
+                <h3 className="text-sm font-semibold ttext-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                    Centro de recursos
+                </h3>
+                <h3 className="text-sm font-semibold ttext-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                    Sobre o Koru
+                </h3>
+                <h3 className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                    Contato
                 </h3>
             </div>
         </>
