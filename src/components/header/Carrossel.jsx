@@ -15,12 +15,12 @@ export default class NextJsCarousel extends Component {
                             className='w-full h-full' />
                     </div>
                     <div className="h-[400px]">
-                        <Image src={boy} alt="garotinho "
+                        <Image src={boy} alt="garotinhos "
                             className='w-full h-full'
                         />
                     </div>
                     <div className="h-[400px]">
-                        <Image src={garotinho} alt="garotinho "
+                        <Image src={garotinho} alt="garoto"
                             className='w-full h-full'
                         />
                     </div>

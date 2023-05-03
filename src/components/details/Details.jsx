@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import card from '../../../public/1.jpg'
 import criancas from '../../../public/criancas-juntas.jpg'
 
 export default function Details() {
