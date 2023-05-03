@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <div>
       <div
-        className='flex justify-between items-center p-5 lg:shadow lg:shadow-yellow1 border-t-4 border-yellow1 '>
+        className='flex justify-between items-center p-5 lg:shadow-lg lg:shadow-purple-100 border-t-4 border-yellow1 '>
         <div className='px-2 rounded-full'>
           <Image src={logo} alt='logo da empresa'
             width={80}
@@ -23,13 +23,13 @@ export default function Header() {
             Mantendo as famílias mais unidas
           </h2>
         </div>
-        <div className='hidden lg:flex justify-center items-center  '>
+        <div className='hidden lg:flex justify-center items-center'>
           <FontAwesomeIcon icon={faSearch}
 
-            className='bg-yellow1 bg-opacity-10 rounded-s-lg p-2 text-2xl text-yellow1' />
+            className='bg-yellow1 bg-opacity-10 rounded-s-lg p-2 text-xl text-yellow1 border-s border-t border-b border-yellow1'/>
           <input type="text"
             placeholder='Pesquisa'
-            className='bg-yellow1 bg-opacity-10 rounded-e-lg p-2 text-yellow1 border-none placeholder:text-yellow1 placeholder-shown:border-yellow1'
+            className='bg-yellow1 bg-opacity-10 rounded-e-lg p-2 text-yellow1 border-e border-t border-b border-yellow1 placeholder:text-yellow1 placeholder-shown:border-yellow1 text-sm '
           />
           <button className='bg-yellow1 bg-opacity-40 hover:bg-opacity-100 transition-all duration-300 ease-in-out text-yellow1 hover:text-white rounded-full py-2 px-5 text-sm mx-2 font-bold'>
             Cadastre-se
