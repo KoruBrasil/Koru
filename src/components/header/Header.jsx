@@ -19,7 +19,7 @@ export default function Header() {
           />
         </div>
         <div>
-          <h2 className='font-bold'>
+          <h2 className='font-bold text-center'>
             Mantendo as famílias mais unidas
           </h2>
         </div>
