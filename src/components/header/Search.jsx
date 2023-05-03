@@ -22,7 +22,7 @@ export default function Search() {
                 />
             )}
             <div
-                className={`top-0 right-0 w-full bg-yellow1 fixed z-40 h-36 ease-in-out duration-300 flex flex-col justify-center items-center pt-12 md:justify-center md:items-center ${showSidebar ? "translate-y-0" : "-translate-y-40"
+                className={`top-0 right-0 w-full bg-yellow1 fixed z-40 h-52 ease-in-out duration-300 flex flex-col justify-center items-center md:justify-center md:items-center ${showSidebar ? "translate-y-0" : "-translate-y-52"
                     }`}>
                 
                 <input type="text"
