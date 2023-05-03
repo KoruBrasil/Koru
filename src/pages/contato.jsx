@@ -84,7 +84,7 @@ export default function Contato() {
                             </label>
                             <input type="text" name="email" value={email}
                                 onChange={(e) => { setEmail(e.target.value) }}
-                                className="rounded-3xl w-48 p-1 px-2 text-sm text-yellow1 bg-purple-100  border border-yellow1"
+                                className="rounded-3xl w-48 p-1 px-2 text-sm text-yellow1 bg-purple-100 border border-yellow1"
                             />
                             <label className="text-sm p-1">
                                 Telefone
@@ -97,7 +97,7 @@ export default function Contato() {
                             />
                             < input type='submit' onClick={(e) => { handleSubmit(e) }}
                                 value="Enviar"
-                                className="p-1 mt-6 rounded-3xl px-4 bg-branco text-tema-site text-sm w-48 cursor-pointer text-white bg-yellow1 hover:text-yellow1 hover:bg-white  font-bold border border-yellow1 hover:border hover:border-yellow1 transform active:scale-75 transition-transform ease-in-out duration-300"
+                                className="p-1 mt-6 rounded-3xl px-4 bg-branco text-tema-site text-sm w-48 cursor-pointer text-white bg-yellow1 hover:text-yellow1 hover:bg-white  font-bold border border-yellow1 hover:border hover:border-yellow1 transition-all ease-in-out duration-1000"
                             />
                         </form>
                     </div>
