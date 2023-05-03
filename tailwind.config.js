@@ -21,6 +21,7 @@ module.exports = {
       colors: {
         'green1': '#52AAB1',
         'yellow1':'#573280',
+        'meu':'#00fc62'
       },
     },
     
