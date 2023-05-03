@@ -35,7 +35,7 @@ export default function Sidebar() {
                     O que fazemos?
                 </h3>
                 <h3 className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
-                    Prenda conosco
+                    Aprenda conosco
                 </h3>
                 <h3 className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
                     Novidades e eventos
