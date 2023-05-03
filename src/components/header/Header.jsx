@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image';
 import logo from '../../../public/logo_whitebg.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faChevronDown} from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
   return (
@@ -56,23 +56,29 @@ export default function Header() {
       </nav>
       <nav className='hidden lg:flex justify-center items-center p-5 gap-20 '>
         
-        <Link href='??' className='text-yellow1 font-bold'>
-          O que fazemos?
+        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+          <p>O que fazemos?</p> 
+          <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
-        <Link href='??' className='text-yellow1 font-bold'>
-          Aprenda conosco
+        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+           <p>Aprenda conosco</p>
+          <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
-        <Link href='??' className='text-yellow1 font-bold'>
-          Novidades e eventos
+        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+           <p>Novidades e eventos</p>
+          <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
-        <Link href='??' className='text-yellow1 font-bold'>
-          Centro de recursos
+        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+           <p>Centro de recursos</p>
+          <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
-        <Link href='??' className='text-yellow1 font-bold'>
-          Sobre o Koru
+        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+           <p>Sobre o Koru</p>
+          <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
-        <Link href='??' className='text-yellow1 font-bold'>
-          Contato
+        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+           <p>Contato</p>
+          <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
       </nav>
       <Carrossel />
