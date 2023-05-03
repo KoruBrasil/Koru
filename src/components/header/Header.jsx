@@ -23,18 +23,18 @@ export default function Header() {
             Mantendo as famílias mais unidas
           </h2>
         </div>
-        <div className='hidden lg:flex justify-center items-center '>
+        <div className='hidden lg:flex justify-center items-center  '>
           <FontAwesomeIcon icon={faSearch}
 
-            className='bg-yellow1 bg-opacity-40 rounded-s-lg p-2 text-2xl text-white' />
+            className='bg-yellow1 bg-opacity-10 rounded-s-lg p-2 text-2xl text-yellow1' />
           <input type="text"
             placeholder='Pesquisa'
-            className='bg-yellow1 bg-opacity-40 rounded-e-lg p-2 text-white border-none'
+            className='bg-yellow1 bg-opacity-10 rounded-e-lg p-2 text-yellow1 border-none placeholder:text-yellow1 placeholder-shown:border-yellow1'
           />
-          <button className='bg-yellow1 bg-opacity-40 hover:bg-opacity-100 transition-all duration-300 ease-in-out text-yellow1 hover:text-white rounded-full py-2 px-5 text-lg mx-2 font-bold'>
+          <button className='bg-yellow1 bg-opacity-40 hover:bg-opacity-100 transition-all duration-300 ease-in-out text-yellow1 hover:text-white rounded-full py-2 px-5 text-sm mx-2 font-bold'>
             Cadastre-se
           </button>
-          <button className='bg-yellow1 hover:bg-opacity-40 hover:text-yellow1 transition-all duration-300 text-white rounded-full py-2 px-5 text-lg  font-bold'>
+          <button className='bg-yellow1 hover:bg-opacity-40 hover:text-yellow1 transition-all duration-300 text-white rounded-full py-2 px-5 text-sm  font-bold'>
             Login
           </button>
         </div>
@@ -54,29 +54,29 @@ export default function Header() {
           Página
         </Link>
       </nav>
-      <nav className='hidden lg:flex justify-center items-center p-5 gap-20 '>
+      <nav className='hidden lg:flex justify-center items-center p-5 gap-10'>
         
-        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+        <Link href='??' className='text-yellow1 font-bold hover:bg-yellow1 hover:bg-opacity-10 px-5 py-2 transition-all duration-300 rounded-full flex justify-center items-center space-x-2'>
           <p>O que fazemos?</p> 
           <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
-        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+        <Link href='??' className='text-yellow1 font-bold hover:bg-yellow1 hover:bg-opacity-10 px-5 py-2 transition-all duration-300 rounded-full flex justify-center items-center space-x-2'>
            <p>Aprenda conosco</p>
           <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
-        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+        <Link href='??' className='text-yellow1 font-bold hover:bg-yellow1 hover:bg-opacity-10 px-5 py-2 transition-all duration-300 rounded-full flex justify-center items-center space-x-2'>
            <p>Novidades e eventos</p>
           <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
-        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+        <Link href='??' className='text-yellow1 font-bold hover:bg-yellow1 hover:bg-opacity-10 px-5 py-2 transition-all duration-300 rounded-full flex justify-center items-center space-x-2'>
            <p>Centro de recursos</p>
           <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
-        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+        <Link href='??' className='text-yellow1 font-bold hover:bg-yellow1 hover:bg-opacity-10 px-5 py-2 transition-all duration-300 rounded-full flex justify-center items-center space-x-2'>
            <p>Sobre o Koru</p>
           <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
-        <Link href='??' className='text-yellow1 font-bold flex justify-center items-center space-x-2'>
+        <Link href='??' className='text-yellow1 font-bold hover:bg-yellow1 hover:bg-opacity-10 px-5 py-2 transition-all duration-300 rounded-full flex justify-center items-center space-x-2'>
            <p>Contato</p>
           <FontAwesomeIcon icon={faChevronDown}/>
         </Link>
