@@ -10,8 +10,9 @@ module.exports = {
       backgroundImage: {
         'card': "url('/card.jpeg')",
         'bg1':"url('/bg1.jpeg')",
+        'bgcontato':"url('/bgcontato.png')"
       },
-      dropShadow: {
+      dropShadow:{
         dark1:'1px 1px 1px black',
         dark2:'1px 1px 1px #1A1A1A',
       },

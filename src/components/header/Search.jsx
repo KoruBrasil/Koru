@@ -29,7 +29,7 @@ export default function Search() {
                     placeholder='Pesquisa'
                     className='bg-purple-100 text-center rounded-full p-2 text-yellow1 border border-t border-b border-yellow1 placeholder:text-yellow1 placeholder-shown:border-yellow1 text-sm'
                 />
-                <h3 className="text-white text-sm">
+                <h3 className="text-white text-sm pt-5">
                     Pressione &apos;Enter&apos; para pesquisar
                 </h3>
             </div>

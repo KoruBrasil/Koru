@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Sidebar() {
@@ -46,9 +47,9 @@ export default function Sidebar() {
                 <h3 className="text-sm font-semibold ttext-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
                     Sobre o Koru
                 </h3>
-                <h3 className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                <Link href='/contato' className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
                     Contato
-                </h3>
+                </Link>
             </div>
         </>
     );

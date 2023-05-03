@@ -13,10 +13,10 @@ export default function Header() {
       <div
         className='flex justify-between items-center p-5 lg:shadow-lg lg:shadow-purple-100 border-t-4 border-yellow1 '>
         <div className='px-2 rounded-full'>
-          <Image src={logo} alt='logo da empresa'
-            width={80}
-
-          />
+          <Link href='/'>
+            <Image src={logo} alt='logo da empresa'
+              width={80} />
+          </Link>
         </div>
         <div>
           <h2 className='font-bold text-center hidden md:block'>
@@ -33,10 +33,10 @@ export default function Header() {
             placeholder='Pesquisa'
             className='bg-yellow1 bg-opacity-10 rounded-full p-2 text-yellow1 border border-t border-b border-yellow1 placeholder:text-yellow1 placeholder-shown:border-yellow1 text-sm pl-10 '
           />
-          <button className='bg-yellow1 bg-opacity-40 hover:bg-opacity-100 transition-all duration-300 ease-in-out text-yellow1 hover:text-white rounded-full py-2 px-5 text-sm mx-2 font-bold'>
+          <button className='bg-yellow1 bg-opacity-40 hover:bg-opacity-100 duration-300 ease-in-out text-yellow1 hover:text-white rounded-full py-2 px-5 text-sm mx-2 font-bold transform active:scale-75 transition-transform'>
             Cadastre-se
           </button>
-          <button className='bg-yellow1 hover:bg-opacity-40 hover:text-yellow1 transition-all duration-300 text-white rounded-full py-2 px-5 text-sm  font-bold'>
+          <button className='bg-yellow1 hover:bg-opacity-40 hover:text-yellow1 duration-300 text-white rounded-full py-2 px-5 text-sm  font-bold transform active:scale-75 transition-transform'>
             Login
           </button>
         </div>
@@ -46,12 +46,12 @@ export default function Header() {
         </div>
       </div>
       <nav className='flex justify-center items-center pb-5 gap-2 lg:hidden'>
-      <button className='bg-yellow1 bg-opacity-40 hover:bg-opacity-100 transition-all duration-300 ease-in-out text-yellow1 hover:text-white rounded-full py-2 px-5 text-sm mx-2 font-bold'>
-            Cadastre-se
-          </button>
-          <button className='bg-yellow1 hover:bg-opacity-40 hover:text-yellow1 transition-all duration-300 text-white rounded-full py-2 px-5 text-sm  font-bold'>
-            Login
-          </button>
+        <button type='button' className='bg-yellow1 bg-opacity-40 hover:bg-opacity-100  duration-300 ease-in-out text-yellow1 hover:text-white rounded-full py-2 px-5 text-sm mx-2 font-bold'>
+          Cadastre-se
+        </button>
+        <button className='bg-yellow1 hover:bg-opacity-40 hover:text-yellow1 transition-all duration-300 text-white rounded-full py-2 px-5 text-sm  font-bold'>
+          Login
+        </button>
       </nav>
       <nav className='hidden lg:flex justify-center items-center p-5 gap-10'>
 
@@ -75,12 +75,12 @@ export default function Header() {
           <p>Sobre o Koru</p>
           <FontAwesomeIcon icon={faChevronDown} />
         </Link>
-        <Link href='??' className='text-yellow1 font-bold hover:bg-yellow1 hover:bg-opacity-10 px-5 py-2 transition-all duration-300 rounded-full flex justify-center items-center space-x-2'>
+        <Link href='/contato' className='text-yellow1 font-bold hover:bg-yellow1 hover:bg-opacity-10 px-5 py-2 transition-all duration-300 rounded-full flex justify-center items-center space-x-2'>
           <p>Contato</p>
           <FontAwesomeIcon icon={faChevronDown} />
         </Link>
       </nav>
-      <Carrossel />
+
     </div>
   )
 }
