@@ -16,7 +16,7 @@ export default function (req, res) {
     const mailData = {
       from: process.env.usermail,
       to: process.env.usermail,
-      subject: `Menssagem de contato de ${req.body.name}`,
+      subject: `Mensagem de contato de ${req.body.name}`,
       text: "Telefone:" + req.body.tel+ " |Enviado por: " + req.body.email,
       html: `<div>
         <p><b>Telefone: </b>${req.body.tel}</p>
@@ -25,9 +25,11 @@ export default function (req, res) {
     transporter.sendMail(mailData, function (err, info) {
       if (err)
         console.log(err)
-      else
+        
+      else 
         console.log(info)
-        res.send()
-    })
+        
+        res.send()}
+    )
     res.status(200)
   }
