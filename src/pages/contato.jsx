@@ -93,7 +93,7 @@ export default function Contato() {
                                 type='text' name='tel'
                                 value={tel}
                                 onChange={(e) => { setTel(e.target.value) }}
-                                className="rounded-3xl w-48 p-1 px-2 text-sm text-yellow bg-purple-100  border border-yellow1"
+                                className="rounded-3xl w-48 p-1 px-2 text-sm text-yellow bg-purple-100 text-yellow1 border border-yellow1"
                             />
                             < input type='submit' onClick={(e) => { handleSubmit(e) }}
                                 value="Enviar"

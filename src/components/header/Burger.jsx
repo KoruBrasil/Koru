@@ -29,24 +29,24 @@ export default function Sidebar() {
             )}
 
             <div
-                className={`top-0 right-0 w-[50vw] bg-purple-100 text-yellow1 fixed h-full z-40  ease-in-out duration-300 ${showSidebar ? "translate-x-0 " : "translate-x-full"
+                className={`top-0 right-0 w-[50vw] bg-purple-100 text-yellow1 fixed h-full z-40  ease-in-out duration-300 flex flex-col ${showSidebar ? "translate-x-0 " : "translate-x-full"
                     }`}
             >
-                <h3 className=" mt-20 text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                <Link href='??' className=" mt-20 text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
                     O que fazemos?
-                </h3>
-                <h3 className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                </Link>
+                <Link href='??' className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
                     Aprenda conosco
-                </h3>
-                <h3 className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                </Link>
+                <Link href='??' className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
                     Novidades e eventos
-                </h3>
-                <h3 className="text-sm font-semibold ttext-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                </Link>
+                <Link href='??' className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
                     Centro de recursos
-                </h3>
-                <h3 className="text-sm font-semibold ttext-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
+                </Link>
+                <Link href='??' className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
                     Sobre o Koru
-                </h3>
+                </Link>
                 <Link href='/contato' className="text-sm font-semibold text-yellow1 p-2 pl-5 hover:text-zinc-400 ease-in-out duration-300 cursor-pointer shadow-lg">
                     Contato
                 </Link>
