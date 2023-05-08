@@ -6,6 +6,7 @@ import Header from "@/components/header/Header";
 import Testimony from "@/components/testimony/Testimony";
 import Carrossel from "@/components/header/Carrossel";
 import Footer from "@/components/footer/Footer";
+import BotaoVolta from "@/components/BotaoVolta";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
     <Blog/>
     <Contact/>
     <Footer/>
+    <BotaoVolta/>
    </div>
   )
 }

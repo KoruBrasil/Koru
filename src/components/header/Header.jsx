@@ -10,6 +10,7 @@ export default function Header() {
   return (
     <div>
       <div
+      id='inicio'
         className='flex justify-between items-center p-5 lg:shadow-lg lg:shadow-purple-100 border-t-4 border-yellow1 '>
         <div className='px-2 rounded-full'>
           <Link href='/'>
@@ -45,10 +46,10 @@ export default function Header() {
         </div>
       </div>
       <nav className='flex justify-center items-center pb-5 gap-2 lg:hidden'>
-        <button type='button' className='bg-yellow1 bg-opacity-40 hover:bg-opacity-100  duration-500 ease-in-out text-yellow1 hover:text-white rounded-full py-2 px-5 text-sm mx-2 font-bold'>
+        <button type='button' className='bg-yellow1 bg-opacity-10 hover:bg-opacity-100 border border-yellow1 duration-500 ease-in-out text-yellow1 hover:text-white rounded-full py-2 px-5 text-sm mx-2 font-bold'>
           Cadastre-se
         </button>
-        <button className='bg-yellow1 hover:bg-opacity-40 hover:text-yellow1 transition-all duration-500 text-white rounded-full py-2 px-5 text-sm  font-bold'>
+        <button className='bg-yellow1 hover:bg-opacity-10 hover:text-yellow1 border border-yellow1 transition-all duration-500 text-white rounded-full py-2 px-5 text-sm  font-bold'>
           Login
         </button>
       </nav>
