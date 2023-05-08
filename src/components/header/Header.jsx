@@ -14,11 +14,11 @@ export default function Header() {
         <div className='px-2 rounded-full'>
           <Link href='/'>
             <Image src={logo} alt='logo da empresa'
-              width={80} />
+              width={50} />
           </Link>
         </div>
         <div>
-          <h2 className='font-bold text-center hidden md:block'>
+          <h2 className='text-yellow1 text-center text-xl hidden md:block'>
             Mantendo as famílias mais unidas
           </h2>
         </div>
