@@ -32,10 +32,10 @@ export default function Header() {
             placeholder='Pesquisa'
             className='bg-yellow1 bg-opacity-10 rounded-full p-2 text-yellow1 border border-t border-b border-yellow1 placeholder:text-yellow1 placeholder-shown:border-yellow1 text-sm pl-10 '
           />
-          <button className='bg-yellow1 bg-opacity-40 hover:bg-opacity-100 text-yellow1 hover:text-white rounded-full py-2 px-5 text-sm mx-2 font-bold transition-all ease-in-out duration-500'>
+          <button className='bg-yellow1 bg-opacity-10 hover:bg-opacity-100 border border-yellow1 text-yellow1 hover:text-white rounded-full py-2 px-5 text-sm mx-2 font-bold transition-all ease-in-out duration-500'>
             Cadastre-se
           </button>
-          <button className='bg-yellow1 hover:bg-opacity-40 hover:text-yellow1  text-white rounded-full py-2 px-5 text-sm font-bold transition-all ease-in-out duration-500'>
+          <button className='bg-yellow1 hover:bg-opacity-10 hover:text-yellow1 border border-yellow1 text-white rounded-full py-2 px-5 text-sm font-bold transition-all ease-in-out duration-500'>
             Login
           </button>
         </div>
