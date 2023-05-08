@@ -1,4 +1,3 @@
-import Carrossel from './Carrossel'
 import Burger from './Burger'
 import Search from '../header/Search'
 import Link from 'next/link'

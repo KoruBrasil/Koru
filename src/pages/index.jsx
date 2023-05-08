@@ -5,6 +5,7 @@ import Details from "@/components/details/Details";
 import Header from "@/components/header/Header";
 import Testimony from "@/components/testimony/Testimony";
 import Carrossel from "@/components/header/Carrossel";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <Details/>
     <Blog/>
     <Contact/>
+    <Footer/>
    </div>
   )
 }

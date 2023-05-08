@@ -4,7 +4,7 @@ import criancas from '../../../public/criancas-felizes.jpg'
 export default function Blog() {
     return (
         <div>
-            <div className="flex flex-col justify-center items-center w-sreen gap-5 p-10">
+            <div className="flex flex-col justify-center items-center text-center w-sreen gap-5 md:p-10">
                 <h2 className="text-4xl">
                     Lorem ipsum, dolor sit amet consectetur.
                 </h2>
@@ -15,7 +15,7 @@ export default function Blog() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
-            <div className='flex gap-10 p-5 justify-center px-20'>
+            <div className='flex flex-col lg:flex-row gap-10 p-5 justify-center items-center md:px-20'>
                 <div className='w-80 flex flex-col overflow-hidden gap-5 '>
                     <Image src={criancas} alt='crianças'
                         className='w-80'
