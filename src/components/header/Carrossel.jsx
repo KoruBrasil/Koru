@@ -4,8 +4,11 @@ import { Carousel } from 'react-responsive-carousel';
 import carro1 from '../../../public/carro1.jpeg'
 import carro2 from '../../../public/carro2.jpeg'
 import carro3 from '../../../public/carro3.jpeg'
+import carro11 from '../../../public/carro11.jpeg'
+import carro22 from '../../../public/carro22.jpeg'
+import carro33 from '../../../public/carro33.jpeg'
 import Image from 'next/image';
-import Link from 'next/link';
+
 
 export default class NextJsCarousel extends Component {
     render() {
@@ -14,55 +17,64 @@ export default class NextJsCarousel extends Component {
 
                 <Carousel showArrows={false} showStatus={false} autoPlay animationHandler='fade' interval={5000} infiniteLoop transitionTime={1100}>
                     <div className="h-auto">
-                        <div className='h-full absolute z-50 text-white space-y-10 pl-40 flex flex-col justify-center items-start'>
-                            <h2 className='text-7xl drop-shadow-dark1'>
+                        <div className='h-full absolute z-50 text-white space-y-10 lg:pl-40 flex flex-col justify-center items-start p-5'>
+                            <h2 className='text-3xl md:text-7xl drop-shadow-dark1'>
                                 Keeping families together
                             </h2>
                             <p className='text-xl drop-shadow-dark1'>
                                 Experience early childhood education with a difference; children and their families play and grow together.
                             </p>
-                            <Link href='/contato' className='bg-yellow1 hover:bg-opacity-10 border border-yellow1 text-white z-50 rounded-full py-2 px-5 text-sm mx-2 font-bold transition-all ease-in-out duration-500'>
-                                Clique aqui
-                            </Link>
+
 
                         </div>
-
-                        <Image src={carro1} alt="garotinho"
-                            className='w-full h-auto' />
-
+                        <div className='hidden lg:block'>
+                            <Image src={carro1} alt="garotinho"
+                                className='w-full h-auto'/>
+                        </div>
+                        <div className='block lg:hidden'>
+                            <Image src={carro11} alt="garotinho"
+                                className='w-full h-auto'/>
+                        </div>
+                        
                     </div>
                     <div className="h-auto">
-                        <div className='h-full absolute z-50 text-white space-y-10 pl-40 flex flex-col justify-center items-start'>
-                            <h2 className='text-7xl drop-shadow-dark1'>
+                        <div className='h-full absolute z-50 text-white space-y-10 lg:pl-40 flex flex-col justify-center items-start p-5'>
+                            <h2 className='text-3xl md:text-7xl drop-shadow-dark1'>
                                 Keeping families together
                             </h2>
                             <p className='text-xl drop-shadow-dark1'>
                                 Experience early childhood education with a difference; children and their families play and grow together.
                             </p>
-                            <Link href='/contato' className='bg-yellow1 hover:bg-opacity-10 border border-yellow1 text-white z-50 rounded-full py-2 px-5 text-sm mx-2 font-bold transition-all ease-in-out duration-500'>
-                                Clique aqui
-                            </Link>
+
 
                         </div>
-                        <Image src={carro2} alt="garotinhos "
-                            className='w-full h-auto'
-                        />
+                        <div className='hidden lg:block'>
+                            <Image src={carro2} alt="garotinho"
+                                className='w-full h-auto'/>
+                        </div>
+                        <div className='block lg:hidden'>
+                            <Image src={carro22} alt="garotinho"
+                                className='w-full h-auto'/>
+                        </div>
                     </div>
                     <div className="h-auto">
-                        <div className='h-full absolute z-50 text-white space-y-10 pl-40 flex flex-col justify-center items-start'>
-                            <h2 className='text-7xl drop-shadow-dark1'>
+                        <div className='h-full absolute z-50 text-white space-y-10 lg:pl-40 flex flex-col justify-center items-start p-5'>
+                            <h2 className='text-3xl md:text-7xl drop-shadow-dark1'>
                                 Keeping families together
                             </h2>
                             <p className='text-xl drop-shadow-dark1'>
                                 Experience early childhood education with a difference; children and their families play and grow together.
                             </p>
-                            <Link href='/contato' className='bg-yellow1 hover:bg-opacity-10 border border-yellow1 text-white rounded-full py-2 px-5 text-sm mx-2 font-bold transition-all ease-in-out duration-500 '>
-                                Clique aqui
-                            </Link>
+
                         </div>
-                        <Image src={carro3} alt="garoto"
-                            className='w-full h-auto'
-                        />
+                        <div className='hidden lg:block'>
+                            <Image src={carro3} alt="garotinho"
+                                className='w-full h-auto'/>
+                        </div>
+                        <div className='block lg:hidden'>
+                            <Image src={carro33} alt="garotinho"
+                                className='w-full h-auto'/>
+                        </div>
                     </div>
                 </Carousel>
             </div>
